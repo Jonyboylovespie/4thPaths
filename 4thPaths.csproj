@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>4thPaths</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>4thPaths</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+    <Import Project="..\btd6.targets" />
+
+    <ItemGroup>
+        <Reference Include="PathsPlusPlus">
+            <HintPath>$(BloonsTD6)\Mods\PathsPlusPlus.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>

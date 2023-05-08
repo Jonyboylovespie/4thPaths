@@ -1,0 +1,12 @@
+C:\repos\4thPaths\bin\Debug\net6.0\4thPaths.deps.json
+C:\repos\4thPaths\bin\Debug\net6.0\4thPaths.dll
+C:\repos\4thPaths\bin\Debug\net6.0\PathsPlusPlus.dll
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.csproj.AssemblyReference.cache
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.AssemblyInfoInputs.cache
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.AssemblyInfo.cs
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.csproj.CoreCompileInputs.cache
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.csproj.CopyComplete
+C:\repos\4thPaths\obj\Debug\net6.0\4thPaths.dll
+C:\repos\4thPaths\obj\Debug\net6.0\refint\4thPaths.dll
+C:\repos\4thPaths\obj\Debug\net6.0\ref\4thPaths.dll
