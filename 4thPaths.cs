@@ -221,7 +221,7 @@ public class Main : BloonsTD6Mod
             towerModel.range += 10;
             foreach (var weaponModel in towerModel.GetDescendants<WeaponModel>().ToArray())
             {
-                weaponModel.emission = new ArcEmissionModel("multishot", 5, 0, 120, null, false);
+                weaponModel.emission = new ArcEmissionModel("multishot", 5, 0, 120, null, false, false);
             }
             foreach (var projectileModel in towerModel.GetDescendants<ProjectileModel>().ToArray())
             {
@@ -275,11 +275,11 @@ public class Main : BloonsTD6Mod
             towerModel.ApplyDisplay<SuperDisplayT5>();
             towerModel.displayScale = 2;
             towerModel.AddBehavior(Game.instance.model.GetTowerFromId("TackShooter-500").GetBehaviors<AttackModel>().Last().Duplicate());
-            towerModel.GetBehaviors<AttackModel>().Last().weapons[0].emission = new ArcEmissionModel("FireBall", 10, 0, 360, null, false);
+            towerModel.GetBehaviors<AttackModel>().Last().weapons[0].emission = new ArcEmissionModel("FireBall", 10, 0, 360, null, false, false);
             towerModel.GetBehaviors<AttackModel>().Last().weapons[0].rate = 3;
             foreach (var weaponModel in towerModel.GetDescendants<WeaponModel>().ToArray())
             {
-                weaponModel.emission = new ArcEmissionModel("multishot", 8, 0, 120, null, false);
+                weaponModel.emission = new ArcEmissionModel("multishot", 8, 0, 120, null, false, false);
             }
             foreach (var projectileModel in towerModel.GetDescendants<ProjectileModel>().ToArray())
             {
